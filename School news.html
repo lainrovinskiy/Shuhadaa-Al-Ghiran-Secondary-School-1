@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أخبار المدرسة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            background-image:
+url(''), 
+url('pattern2.png');
+            background-repeat: repeat, repeat-y;
+            background-position: left top, right top;
+            color: #fff;
+            text-align: center;
+            padding: 24px;
+            height: 20px; /* ارتفاع الصورة */
+        }
+        .header-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* لون خلفية العنصر الفرعي (التراكب) */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-content {
+            text-align: center;
+            color: #fff;
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /* تحديد مظهر المستطيلات */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-overlay">
+            <div class="header-content">
+                <h1>أخبار المدرسة</h1>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="#football">دوري كرة القدم</a> |
+        <a href="#exams">الامتحانات</a> |
+        <a href="#general">أخبار عامة</a>
+    </nav>
+    <section id="football">
+        <h2>دوري كرة القدم</h2>
+        <p>نتائج المباريات وأخبار الفرق.</p>
+    </section>
+    <section id="exams">
+        <h2>الامتحانات</h2>
+        <p>تواريخ وأخبار الامتحانات.</p>
+    </section>
+    <section id="general">
+        <h2>أخبار عامة</h2>
+        <p>أخبار وأحداث المدرسة بشكل عام.</p>
+    </section>
+    <footer>
+        <p>حقوق النشر &copy; 2024 المدرسة. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
